@@ -127,7 +127,7 @@ button {
 }
 
 .login {
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.366);
     width: 330px;
     height: 300px;
@@ -144,7 +144,7 @@ button {
 .register {
     position: relative;
     width: 80%;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 
@@ -160,18 +160,22 @@ input {
     border: .5px solid gray;
     background-color: transparent;
     outline: none;
+    padding: 10px;
+
 
 }
 
 .text {
     position: absolute;
     font-size: 12px;
-    top: 4px;
+    top: 10px;
     left: 10px;
     color: gray;
     background-color: white;
-    padding: 2px 5px;
+    /* padding: 5px 5px; */
     /* z-index: -1; */
+    
+
 }
 
 input:focus+.text,
@@ -190,7 +194,7 @@ input:focus {
 }
 
 .reg {
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.366);
     width: 300px;
     height: 300px;
@@ -199,4 +203,10 @@ input:focus {
     flex-direction: column;
     align-items: center;
     overflow: hidden;
+}
+.submit-last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
 }
